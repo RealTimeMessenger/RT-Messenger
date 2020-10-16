@@ -376,7 +376,6 @@ def loadDatafromFirebaseApi(token):
     }
 
     response = request("POST", url, headers=headers, data=payload)
-
     return response.text
 
 def proceedToLogin(request,email,username,token,provider):
